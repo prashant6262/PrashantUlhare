@@ -284,6 +284,7 @@ body.dark {
 .dark .skin>span,
 .dark .home .home-content p,
 .dark .contacts ul li,
+.dark .contacts ul li a,
 .dark .leftbottom a,
 .dark .leftbottom>span,
 .dark .social ul li a,
@@ -1493,6 +1494,7 @@ body.dark {
     left: 30px;
     top: 23px;
     font-size: 16px;
+    
 }
 
 .contacts ul {
@@ -1500,10 +1502,17 @@ body.dark {
     padding: 0;
     line-height: 26px;
     list-style: none;
+    
+    
 }
 
 .contacts ul li {
     color: #333;
+    
+}
+.contacts ul li a {
+    color: #333;
+    text-decoration: none;
 }
 
 .social {
@@ -1548,6 +1557,8 @@ body.dark {
     display: flex;
     align-items: center;
 }
+
+
 
 /*** Portfolio Grid ***/
 
